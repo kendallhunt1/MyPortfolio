@@ -1,0 +1,138 @@
+.mySkills {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.mySkillsWrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsHeader {
+    height: 10%;
+}
+
+.skillsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skillWrapper {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.show img {
+    height: 80%;
+    width: 31%;
+}
+
+.hide {
+    display: none;
+}
+
+.lines {
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lines div {
+    height: 50%;
+    width: 30%;
+    background: black;
+    transition: transform .2s;
+
+}
+
+.lines div:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.arrOne {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrOne img {
+    width: 31%;
+    height: 80%;
+}
+
+.resumeWrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+
+.resumeImg {
+    height: 75%;
+    width: auto;
+}
+.resumeImg img {
+    cursor: pointer;
+    height: 100%;
+    transition: transform 0.5 ease;
+
+}
+
+.resumeImg img:hover {
+    transform: scale(1.1);
+}
+
+.resumeButtons {
+    height: 18%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.resumeButtons button {
+    width: 30%;
+    height: 50%;
+    background: none;
+    border-radius: 5px 5px;
+    border: solid black 1px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 1.7vh;
+}
+
+.resumeButtons button:hover {
+    transform: scale(1.1);
+    background: rgb(255,255,255);
+    background: linear-gradient(57deg, rgba(255,255,255,1) 15%, rgba(250,232,209,1) 100%);
+}

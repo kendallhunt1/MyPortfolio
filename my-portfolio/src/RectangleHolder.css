@@ -1,0 +1,71 @@
+.rectangleHolderWrapper {
+    padding-top: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6%;
+    background: rgb(247, 231, 210);
+
+}
+
+.rectangleHolder {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangles, .rectangles1 {
+    background: grey;
+    width: 13%;
+}
+
+.rectangles {
+    height: 70vh;
+}
+
+.rectangles1 {
+    padding-top: 5%;
+    height: 73vh;
+}
+
+.rectangle1, .rectangle7 {
+    background: url('./svgs/MYWORK.svg')
+}
+
+.rectangle2 {
+    background: url("./svgs/myresume.svg");
+    transition: transform .2s;
+}
+
+.rectangle3 {
+    background: url("./svgs/jenandlolo.svg");
+    background-size: cover;
+}
+
+.rectangle4 {
+    background: url("./svgs/lolo.svg");
+    background-size: cover;
+}
+
+.rectangle5 {
+    background: url("./svgs/fam.svg");
+    background-size: cover;
+}
+
+.rectangle6 {
+    background: url("./svgs/aboutme.svg");
+}
+
+.rectangles, .rectangles1 {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    transition: transform .2s;
+}
+
+.rectangles:hover, .rectangles1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

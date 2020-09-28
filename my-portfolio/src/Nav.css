@@ -1,0 +1,29 @@
+.siteLogo {
+    background: rgb(247, 231, 210);
+    z-index: 100;
+    position: fixed;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollNav {
+    font-size: 1.4em;
+    border: solid black 1px;
+    float: right;
+    padding-right: 16%;
+    width: 30%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siteLogo svg {
+    padding-top: 0.5%;
+    width: 50%;
+    height: 100%;
+}

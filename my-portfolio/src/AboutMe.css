@@ -1,0 +1,48 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    font-weight: 350;
+    font-size: 1.15rem;
+}
+
+.aboutMe {
+    background: url("./svgs/aboutmebackground.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picture {
+    background: url("https://lh3.googleusercontent.com/9WbWsvDYFTD3XWgXecdlka4pYW_yCsU1p-RiihnFm7MBeXTVb2Cp1fMO4ydl19OOSka0xBbz6LfqZyvXqWa2Ft-ck0OMCMSsh1myanTNz-1GvaIVpNXcGsHqbg4ben5_u90uKH7QQfE2COvK1uQS_QFsNzFadT1LlgKy_jggOXcKOC4kGjiAS8PUS2d1iD0mmiaPaaLneFP9MEoPnOB9vLH7mn3uzgWYRBhPYbT9Q8NkmSFcKBNao4bFFKNZEHXot-VYLL7oA7sJ6C2BTi7gm0o3NvdrqF9JHjS4TULsXXn-rrKnk3Iwdjp4IY5hdIW_ulepotDbO6WEw2QoFhSMJCGi4RuGz6Bspybt0QW3niQ-AqmFRUeiz29qmz1_xz5KA3KfJ7jI0uMC7u5_pfee127mR0kt2am_ftPWY7QfUk67_r4XGZkuFPrflXIOxnRtmdsIKXRonP8TcYBKUJD-OmKHa4mDYRVqpKp7ZD87FyEnqvZt0XnYlUdFzDHVjKYBBNRxn6Dz01Wf2PeqerWSE-BMN1E-Z9EAZH8myKxTivPqRIvO8Jn02_IsfEvrHdm1ac8Faf-XakhZk7Dl2HeuvitHXyjQsHy-Edb8rqXIXw_b2udN1MJFLbW1jDMMEDmzhZJ6vHY-fvsYmiYbYqdlhAztrhAot7a1gbbQNop17dxdzPcVh_lIRpLTRrQj=w479-h718-no?authuser=0");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90%;
+    width: 20%;
+}
+
+.aboutMeInformation {
+    width: 55%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.aboutMeTitle {
+    width: 100%;
+    text-align: left;
+    height: 10%;
+}
+
+.aboutMeHeadline {
+    max-height: 90%;
+}
